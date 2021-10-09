@@ -1,0 +1,41 @@
+/* colors
+    gunmetal grey - #8D918D
+     */
+
+body {
+    background-color: #8D918D;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.navigation a {
+    font-size: larger;
+    text-decoration: none;
+    color: blue;
+    float: left;
+    margin: 20px;
+}
+
+.navigation h1 {
+    float: right;
+
+}
+
+header {
+    float: none;
+    text-align: center;
+}
+
+header h2 {
+    font-size:xx-large;
+
+}
+
+header p {
+    font-size: large;
+
+}
