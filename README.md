@@ -82,4 +82,7 @@ CSS
     3)the corners of all buttons will be rounded
 
 JAVASCRIPT
-    
+    TIMER
+        this will be a 'setInterval' function
+            there will need to be an initial global variable to represent starting time
+            every second the number will decrement 1 until it reaches 0 
