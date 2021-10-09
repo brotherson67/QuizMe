@@ -49,3 +49,4 @@ decrementE1.addEventListener('click', function() {
         setCounterText();
     }
 });
+*/
