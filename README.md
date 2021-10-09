@@ -46,7 +46,40 @@ INITIAL-OUTLINE
                 B) Time remaining in the test -5 for each correct quesiton
                 c) assign random amounts for each question then multiply the sum by time remaining
                 D) percent correct times time remaining
-
-        * Score will then be added to score board
-            This can be an array?
         
+        * A screen saying "good Job" will prompt the player to input initials and display score
+
+        * Score and initials will then be added to score board
+            This can be an array?
+        * On Score page player will be presented with the option to try again
+_________________________________________________________________________________
+DEVELOPMENT OUTLINE
+
+HTML
+    1) create LandingPage 
+        the landing page will contain:
+            High Scores link
+            Welcome message
+            Begin option
+    2) create 3 identical quiz pages (if I want more I can add more later)
+        Each page will contain
+            a link to go see the high scores
+            a timer counting down from 60
+            4 buttons which will be the possible answers
+    3) create score display, name entry page
+        Will contain: 
+            the player score
+            prompt for player to enter their name
+    4) Create High score page
+        will contain:
+            a numberically sorted list of the 5 best high scores
+            a button to retake the quiz
+
+
+CSS 
+    1)The background of each page will be gunmetal grey
+    2)The buttons will be light blue initally 
+    3)the corners of all buttons will be rounded
+
+JAVASCRIPT
+    
