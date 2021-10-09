@@ -95,3 +95,12 @@ JAVASCRIPT
             * funciton that starts timer when button is clicked and moves to the first question
                 1) funciton that starts timer can be passed into this funciton
                 2) function that moves to next page can be passed as well
+
+_________________________________________________________________________________________________________
+
+WIREFRAMES
+
+    INDEX
+        ![image](https://user-images.githubusercontent.com/89677641/136671727-b1f80f46-10dc-400a-a726-71f42e5b9b1a.png)
+
+    
