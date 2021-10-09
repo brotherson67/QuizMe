@@ -1,0 +1,52 @@
+DESCRIPTION
+    a quiz application
+        the application needs to change pages once an item is selected
+        have a timer
+        have a hyperlink which takes you to 'high scores' page
+        display if the selected choice is correct or not
+        take you to a new page after each question
+______________________________________________________________________________
+
+REQUIRMENTS
+    GIVEN I am taking a code quiz
+
+        WHEN I click the start button
+        THEN a timer starts and I am presented with a question
+
+        WHEN I answer a question
+        THEN I am presented with another question
+
+        WHEN I answer a question incorrectly
+        THEN time is subtracted from the clock
+        
+        WHEN all questions are answered or the timer reaches 0
+        THEN the game is over
+        
+        WHEN the game is over
+        THEN I can save my initials and score
+
+_______________________________________________________________________________
+INITIAL-OUTLINE
+    1.First page will be blank with nothing but a welcome banner and a 'Start' button and a 'high scores' page 
+    2.If the 'Start' button is selected, 
+        * timer will start
+        * user will be presented with a question 
+        * the user can:
+            1) select an answer to the question
+                * IF the selection is right, the selection will turn green and 'Correct' will show on the bottom of the screen.
+                * If the Selection is wrong, the option will turn red and 'Wrong Choice' will show at the bottom of the screen.
+                * the user will then be moved to the next screen after 2 seconds
+                
+            2) select 'view high scores'
+                * the quiz will imediatly quit and the score will not be compiled
+
+        * After the user has passed though all of the questions their score will be compiled. 
+            1) Things the score can be made from:
+                A) Time remaining in the test +5 for each correct question
+                B) Time remaining in the test -5 for each correct quesiton
+                c) assign random amounts for each question then multiply the sum by time remaining
+                D) percent correct times time remaining
+
+        * Score will then be added to score board
+            This can be an array?
+        
