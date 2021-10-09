@@ -25,17 +25,17 @@ nav {
 
 }
 
-header {
+.header {
     float: none;
     text-align: center;
 }
 
-header h2 {
+.header h2 {
     font-size:xx-large;
 
 }
 
-header p {
+.header p {
     font-size: large;
 
 }

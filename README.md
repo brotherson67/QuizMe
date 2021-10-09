@@ -88,13 +88,15 @@ JAVASCRIPT
             every second the number will decrement 1 until it reaches 0
             function will activate when the 'start' button is selected and not before 
 
+    QUIZ PAGES
+        each page will be a different 
+
     HIGH-SCORES
 
     MOVING FROM ONE PAGE TO THE NEXT. 
         to start
-            * funciton that starts timer when button is clicked and moves to the first question
-                1) funciton that starts timer can be passed into this funciton
-                2) function that moves to next page can be passed as well
+            1) for the first quiz questions, the quiz section will replace the welcome div
+            2) 
 
 _________________________________________________________________________________________________________
 
