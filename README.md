@@ -89,3 +89,9 @@ JAVASCRIPT
             function will activate when the 'start' button is selected and not before 
 
     HIGH-SCORES
+
+    MOVING FROM ONE PAGE TO THE NEXT. 
+        to start
+            * funciton that starts timer when button is clicked and moves to the first question
+                1) funciton that starts timer can be passed into this funciton
+                2) function that moves to next page can be passed as well
