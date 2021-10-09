@@ -85,4 +85,7 @@ JAVASCRIPT
     TIMER
         this will be a 'setInterval' function
             there will need to be an initial global variable to represent starting time
-            every second the number will decrement 1 until it reaches 0 
+            every second the number will decrement 1 until it reaches 0
+            function will activate when the 'start' button is selected and not before 
+
+    HIGH-SCORES

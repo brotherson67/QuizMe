@@ -1,5 +1,5 @@
 //OULINE FOR THE TIMER
-let timeRemaining = 70; 
+let timeRemaining = 10; 
 
 const timer = setInterval(function() {
     const interval = document.getElementById('timeRemaining');
@@ -9,3 +9,5 @@ const timer = setInterval(function() {
         clearInterval(timer);
     };
 }, 1000);
+
+addEventListener('click', timer);
