@@ -56,6 +56,12 @@ const toQuestion3 = question2.addEventListener('click', function() {
     question3.style.display = 'block'
 });
 
+//BRING TO ENTER INITIALS
+const initials = question3.addEventListener('click', function(){
+    window.location.href = './assets/HTML/highScores.html';
+    return
+})
+
 
 
 

@@ -18,11 +18,16 @@ form #input{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100px;
     
 }
 
 form input, button {
     height: 50%;
-    width: 50%;
+    border-radius: 7px;
+}
+
+form input {
+    width: 30%;
+    font-size: 25px;
 }
