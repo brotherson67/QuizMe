@@ -113,6 +113,11 @@ WIREFRAMES
     QUESTIONS
         ![image](https://user-images.githubusercontent.com/89677641/136676733-98dc6c62-23aa-4cb4-8016-6ba430c64d45.png)
 
+    HIGHSCORES
+        ![image](https://user-images.githubusercontent.com/89677641/136706458-da5bfd47-c541-4dd7-a13b-0edb9c08b134.png)
+
+        ![image](https://user-images.githubusercontent.com/89677641/136706487-31385020-de78-4c8c-ad6e-6181cb569b13.png)
+
 __________________________________________________________________________________________________________________________
 
 
