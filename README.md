@@ -105,4 +105,5 @@ WIREFRAMES
     INDEX
         ![image](https://user-images.githubusercontent.com/89677641/136671727-b1f80f46-10dc-400a-a726-71f42e5b9b1a.png)
 
-    
+    QUESTIONS
+        ![image](https://user-images.githubusercontent.com/89677641/136676733-98dc6c62-23aa-4cb4-8016-6ba430c64d45.png)
