@@ -41,13 +41,29 @@ clearInterval(intervalID);
 const toQuestion1 = function() {
     welcome.style.display = 'none';
     question1.style.display = 'block'
+
 };
 
-//BRING UP QUIZ QUESTION 2
-const toQuestion2 = function() {
+// BRING UP QUIZ QUESTION 2
+const toQuestion2 = question1.addEventListener('click', function() {
     question1.style.display = 'none'
     question2.style.display = 'block'
-};
+});
 
-//event listener to go to question 2
-const test = question1.addEventListener('click', toQuestion2())
+// BRING UP QUIZ QUESTION 3
+const toQuestion3 = question2.addEventListener('click', function() {
+    question2.style.display = 'none'
+    question3.style.display = 'block'
+});
+
+
+
+
+// const btn = document.getElementById('startBtn');
+// console.log(btn);
+
+// btn.addEventListener('click', function(evt){
+//     console.log('clicked button');
+
+//     console.log(evt);
+// });
