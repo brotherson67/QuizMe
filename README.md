@@ -95,8 +95,10 @@ JAVASCRIPT
 
     MOVING FROM ONE PAGE TO THE NEXT. 
         to start
-            1) for the first quiz questions, the quiz section will replace the welcome div
-            2) 
+            1) event listener will start the timer and bring player to first question 
+            2) player will answer question,
+                *if answer is correct 5 points will be added to a global score variable and box will turn green
+                *if answer is incorrect, 10 seconds will be deducted from the time and the box will turn red.
 
 _________________________________________________________________________________________________________
 
