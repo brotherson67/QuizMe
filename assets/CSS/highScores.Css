@@ -1,0 +1,28 @@
+body {
+    background-color: #8D918D;
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+}
+
+form h2 {
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    align-content: center;
+}
+
+form #input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+form input, button {
+    height: 50%;
+    width: 50%;
+}

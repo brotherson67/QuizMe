@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HighScores</title>
-    <link href="/assets/CSS/style.CSS" rel="stylesheet" />
+    <link href="../CSS/highScores.Css" rel="stylesheet" />
 </head>
-<body>
-    <div id="addInitials">
-
-    </div>
-    <div id='highScores'>
-        <p>
-            Checkout your high scores!
-
-        </p>
-
+<body class="highScores">
+    <nav>        
         <h1> 
             <a href="../../index.html">Go back to first page</a>
-
         </h1>
+    </nav>
+
+    <form>
+        <div>
+            <h2>
+                Please enter your initials
+            </h2>
+        </div>
+        <div id="input">
+            <input type="text" name="playerInitials" placeholder="enter initials here"> 
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <!-- <div id='highScores'>
+        <p>
+            Checkout your high scores!
+        </p> -->
     </div>
 
 </body>
