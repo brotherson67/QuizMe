@@ -54,3 +54,26 @@ nav {
     border-radius: 10px;
     background-color: red;
 }
+
+
+
+
+
+form .questions button {
+    font-size: xx-large;
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+#quiz_question0 {
+    display: none;
+}
+
+#quiz_question1 {
+    display: none;
+}
+
+#quiz_question2 {
+    display: none;
+}

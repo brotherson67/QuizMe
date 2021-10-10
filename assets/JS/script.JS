@@ -1,43 +1,39 @@
+//GLOBAL VARIABLES
+let score = 17;
+let timeRemaining = 2;
+const questions = document.getElementsByClassName('questions');
+
+
+
 const startBtn = document.getElementById('startBtn');
 
 const timerFunction = startBtn.addEventListener('click', function() {
-    startTimer();
-
+    if (timeRemaining > 0) {
+        startTimer();
+    }
+    buttonFunction();
 })
+
 
 
 //TIMER FUNCTION
 function startTimer() {
     const timeDisplay = document.getElementById("timeRemaining");
-    let timeRemaining = 5;
-  
+
     intervalID = setInterval(function () {
-      timeRemaining--;
-  
-      timeDisplay.innerText = timeRemaining + "s";
-  
-      if (timeRemaining <= 0) {
+        timeRemaining--;
+
+        timeDisplay.innerText = timeRemaining + "s";
+
+        if (timeRemaining <= 0) {
         stopTimer();
-      }
-    }, 1000);
-  }
+        }
+    }, 1000)
+};
 
 
-  //STOP TIMER FUNCITON
-  function stopTimer() {
-    clearInterval(intervalID);
-    document.querySelector('body').innerHTML = '<h1>Time is up!</h1>';
-  }
-
-
-
-
-
-// const timer = setInterval(function() {
-//     const interval = document.getElementById('timeRemaining');
-
-//     interval.textContent = --timeRemaining;
-//     if (timeRemaining <= 0) {
-//         clearInterval(timer);
-//     };
-// }, 1000);
+//STOP TIMER FUNCITON
+function stopTimer() {
+clearInterval(intervalID);
+// document.querySelector('main').innerHTML = '<h1>Time is up!</h1>';
+};
