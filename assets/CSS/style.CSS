@@ -66,14 +66,14 @@ form .questions button {
     background-color: red;
 }
 
-#quiz_question0 {
-    display: none;
-}
-
 #quiz_question1 {
     display: none;
 }
 
 #quiz_question2 {
+    display: none;
+}
+
+#quiz_question3 {
     display: none;
 }
