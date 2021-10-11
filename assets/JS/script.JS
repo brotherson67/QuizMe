@@ -75,8 +75,6 @@ const scoreKeeper = addEventListener('click', function() {
     if (question1Answer.clicked === true) {
         score = 5 + score
         console.log('hello');
-    }else if (question1.click === false){
-        timeRemaining -= 10;
     }
 console.log(score);
 });
