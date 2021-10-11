@@ -100,6 +100,10 @@ JAVASCRIPT
                 *if answer is correct 5 points will be added to a global score variable and box will turn green
                 *if answer is incorrect, 10 seconds will be deducted from the time and the box will turn red.
 
+    KEEPING SCORE
+        if the answer is correct, when it is clicked it will turn green
+            else it will turn red.
+        
 
         
         
@@ -122,15 +126,16 @@ ________________________________________________________________________________
 
 
 PSUEDOCODE
-    the page is refeshed.
-    display shows, 
-        link to high scores
-        timerwithout time on it
-        welcome message and start button
-    when the start button is pressed the current main div is changed to a question 
-    the question will be centered with 4 possible answeres
-    two seconds after an answer is selected, the next div comes up
-    the same process repeats 
-    after the last question a form will come up
-    the form will send a get call to move the page to the high scores 
-    the high score page will update with the new attemps
+    when the player starts the game:
+        they will start with a welcome message
+        under the welcome message will be a button to start the quiz
+        the user will consecutively be presented with 3 questions
+            if the user selects the wrong answer it will turn red
+            if they select the correct answer, it will turn green
+        after the last question the user will input their initials
+        they will be presented with their score. 
+        they will be guided to the high scores page 
+        their score will or will not be in the top 5
+            the top 5 will be sorted by amount 
+
+

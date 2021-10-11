@@ -1,6 +1,6 @@
 //GLOBAL VARIABLES
 let score = 17;
-let timeRemaining = 2;
+let timeRemaining = 5;
 const questions = document.getElementsByClassName('questions');
 const startBtn = document.getElementById('startBtn');
 const welcome = document.getElementById('quiz_welcome');
@@ -63,6 +63,23 @@ const initials = question3.addEventListener('click', function(){
 })
 
 
+//RANDOM SCORE
+// let random = Math.floor(Math.random * 64)
+
+// SCORE KEEPING FUNCTION
+const scoreKeeper = addEventListener('click', function() {
+    const question1Answer = document.getElementById('question1Answer3');
+    const question2Answer = document.getElementById('question2Answer3');
+    const question3Answer = document.getElementById('question3Answer2');
+
+    if (question1Answer.clicked === true) {
+        score = 5 + score
+        console.log('hello');
+    }else if (question1.click === false){
+        timeRemaining -= 10;
+    }
+console.log(score);
+});
 
 
 // const btn = document.getElementById('startBtn');
